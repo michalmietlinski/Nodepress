@@ -1,0 +1,21 @@
+{{> header}}
+<div class="header">
+    <div class="wrapper">
+        {{> menu}}
+    </div>
+    </div>
+<div class="wrapper">
+    
+   
+</br></br>
+    {{pages}}
+    {{#each users}}
+    <div class="data-row">
+        {{email}}
+       
+    </div>
+    {{/each}}
+    
+    <h2><a href="/addnew">Add new</a></h2>
+</div>
+{{> footer}}

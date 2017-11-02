@@ -1,0 +1,107 @@
+h2 {
+    color: #303F9F;
+}
+
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    
+    padding-bottom: 10px;
+    transition: padding-left 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    box-sizing: border-box;
+}
+
+ul.menu {
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+    transition: padding-left 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+ul.menu li {
+    float: left;
+    list-style: none;
+    padding: 10px;
+}
+
+ul.menu li a {
+    color: #E8EAF6;
+    text-decoration: none;
+}
+
+ul.menu li:first-of-type {
+    margin-left: 0;
+}
+
+.header .wrapper {
+ background: #303F9F;
+}
+
+.header {
+    width: 100%;
+    background: #303F9F;
+    color: #E8EAF6;
+    overflow: hidden;
+    clear: both;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+body, html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: #E8EAF6;
+}
+*{
+ box-sizing:border-box;
+}
+form > div{
+padding:2px 0;
+width:450px;
+    float: left;
+    clear: both;
+}
+form label{
+ width:100px;
+ float:left;
+ padding: 9px;
+     color: #303F9F;
+    font-weight: 700;
+}
+input, input[type=text], select{
+ background:#303F9F;
+ border:1px solid #303F9F;
+ color: #E8EAF6;
+ width:100%;
+ margin:10px 0; 
+ max-width:200px;
+ float:left;
+ /*margin:0;*/
+ -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+input[type=submit]{
+ padding:7px;
+ float:left;
+ margin-left:100px;
+}
+input[name="Id"]{
+ visibility:hidden;
+ width:0;
+ height:0;
+}
+
+.data-row{
+        width: 100%;
+    clear: both;
+    background: #C5CAE9;
+    overflow: hidden;
+    margin-top: 20px;
+    padding:10px;
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

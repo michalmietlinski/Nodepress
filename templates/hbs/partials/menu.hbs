@@ -1,0 +1,18 @@
+<ul class="menu">
+<li><a href="/">Home</a></li>
+{{#if Usernotlogged}}
+<li><a href="/register">Register</a></li>
+<li><a href="/login">Login</a></li>
+{{/if}}
+
+{{#if Userlogged}}
+
+<li><a href="/profile">Profile</a></li>
+<li><a href="/admin">Admin</a></li>
+<li><a href="/users">Users</a></li>
+<li><a href="/logout">Logout</a></li>
+<li><a href="/reset">Reset password</a></li>
+{{/if}}
+{{#loggin}}
+{{/loggin}}
+</ul> 

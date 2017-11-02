@@ -1,0 +1,42 @@
+-Users
+	- Roles
+		-Check by role;
+	- Levels
+		-Check by level; - Done
+	- Ownership;
+	- Edit privilages;
+	- Local auth - Done
+	- Login - Done
+	- Register - Done
+	- Edit profile
+	- oAuth
+	- Facebook
+	- Google
+	- Forgot password - Done
+	- Reset password - Done
+	- Confirm user - Done
+- Pages
+	- Auto populate data - html
+	- Handlebars;- Done
+	- Ajax requests - html, json;
+	- config, who can access, parent page, custom url,
+	- custom fields
+	- Change ownership
+- Articles
+	- Just as pages;
+- Categories
+	- levels
+	- cat config- who can access, parent, url, name
+- URL register
+- Online preview;
+- Send email - Done
+- Language versions;
+- Generate pdf;
+- Image operations;
+- Wysiwyg
+- Websocket;
+- Store
+	- Products
+	- Payments
+	- Cart
+	-

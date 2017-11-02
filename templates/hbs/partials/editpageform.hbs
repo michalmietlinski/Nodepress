@@ -1,0 +1,40 @@
+<div style="float:left">
+            <h2><a href="/admin/editPage/{{_id}}"/>Edit</a></h2>
+            <form action="/admin/editPage/{{_id}}" method="post">
+                <div>
+                    <label>title:</label><!-- Add availlable themes here -->
+                    <input type="text" value="{{title}}" name="title"/>
+                </div>
+                <div>
+                    <label>Url:</label>
+                    <input type="text" value="{{link}}" name="link"/>
+                </div>
+                <div>
+                    <label>text:</label>
+                    <input type="text" value="{{text}}" name="text"/>
+                </div>
+                
+                <div>
+                    <label>theme:</label><!-- Add availlable themes here -->
+                 <!--    <input type="text" value="{{theme}}" name="theme"/> -->
+                 {{#themes theme}}
+                 {{/themes}}
+                </div>
+                <div>
+                    <label>type:</label><!-- Add availlable themes here -->
+                    {{#types type}}
+                 {{/types}}
+                </div>
+                <div>
+                    <label>level:</label><!-- Add availlable themes here -->
+                    <input type="number" value="{{level}}" name="level"/>
+                </div>
+                <div>
+                    
+                    <input value="{{_id}}" name="Id" readonly/>
+                </div>
+                <div>
+                    <input type="submit" value="Edit page"/>
+                </div>
+            </form>
+        </div>

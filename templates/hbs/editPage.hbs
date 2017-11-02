@@ -1,0 +1,23 @@
+{{> header}}
+<div class="header">
+    <div class="wrapper">
+        {{> menu}}
+    </div>
+</div>
+<div class="wrapper">
+    Availlable templates:</br>
+    {{templates}}
+    
+    Loaded Page
+    <div style="width:100%; clear:both;">
+        {{#each page}}
+        {{> pageinfo}}
+        {{> editpageform}}
+        {{/each}}
+       
+    </div>
+    
+    
+    
+</div>
+{{> footer}}

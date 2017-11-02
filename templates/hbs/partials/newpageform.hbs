@@ -1,0 +1,32 @@
+ <form action="/admin/addPage" method="post">
+        <div>
+            <label>title:</label><!-- Add availlable themes here -->
+            <input type="text" name="title"/>
+        </div>
+        <div>
+            <label>Url:</label>
+            <input type="text" name="link"/>
+        </div>
+        <div>
+            <label>text:</label>
+            <input type="text" name="text"/>
+        </div>
+        
+        <div>
+            <label>theme:</label><!-- Add availlable themes here -->
+            {{#themes theme}}
+                 {{/themes}}
+        </div>
+        <div>
+            <label>type:</label><!-- Add availlable themes here -->
+            {{#types type}}
+                 {{/types}}
+        </div>
+         <div>
+                    <label>level:</label><!-- Add availlable themes here -->
+                    <input type="number" value="{{level}}" name="level"/>
+                </div>
+        <div>
+            <input type="submit" value="Add page"/>
+        </div>
+    </form>
